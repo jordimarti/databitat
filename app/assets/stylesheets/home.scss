@@ -1,0 +1,14 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.cropped {
+  max-width: 1168px; /* width of container */
+  max-height: 421px; /* height of container */
+  overflow: hidden;
+}
+
+.cropped img {
+  margin: 100px 0px 0px -100px;
+  transform: scale(2);
+}
